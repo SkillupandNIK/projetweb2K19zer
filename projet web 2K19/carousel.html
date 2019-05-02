@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Carousel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class = "carousel">
+		<button class = "carousel_button carousel_button--left"> Gauche </button>
+
+		<div class = "carousel_track-container">
+			<ul class = "carousel_track">
+				<li class = "carousel_slide current-slide">
+					<img class = "carousel_image" src = "img/ballon.jpg" alt = "ballon" />
+				</li>
+				<li class = "carousel_slide">
+					<img class = "carousel_image" src = "img/god.jpg" alt = "god" />
+				</li>
+				<li class = "carousel_slide">
+					<img class = "carousel_image" src = "img/gode.jpg" alt = "gode" />
+				</li>
+			</ul>
+		</div>  
+
+		<button class = "carousel_button carousel_button--right"> Droite </button>
+	</div>	
+
+	<div class = "carousel_nav">
+		<button class = "carousel_indicator current_slide"> </button>
+		<button class = "carousel_indicator"> </button>
+		<button class = "carousel_indicator"> </button> 
+	</div>
+
+	<script src = "carousel.js"> </script>
+</body>
+</html>
